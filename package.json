@@ -1,10 +1,15 @@
 {
   "name": "untitled",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-push": "gulp release"
+    }
   },
   "author": "Colorfulstan | Jonas Krispin <npm@krispin.it> (https://github.com/colorfulstan)",
   "license": "ISC",
