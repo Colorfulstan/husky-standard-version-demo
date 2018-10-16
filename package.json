@@ -1,6 +1,6 @@
 {
   "name": "untitled",
-  "version": "1.0.2",
+  "version": "1.13.52",
   "description": "",
   "main": "gulpfile.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-push": "gulp release"
+      "post-merge": "gulp release"
     }
   },
   "author": "Colorfulstan | Jonas Krispin <npm@krispin.it> (https://github.com/colorfulstan)",
@@ -16,6 +16,8 @@
   "devDependencies": {
     "git-branch-name": "~1.1.0",
     "gulp": "~3.9.1",
+    "gulp-git": "~2.8.0",
+    "gulp-replace": "~1.0.0",
     "husky": "~1.1.2",
     "standard-version": "~4.4.0"
   }

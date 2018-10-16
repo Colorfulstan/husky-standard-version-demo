@@ -17,7 +17,8 @@ module.exports = {
 		src: buildRoot + "/src"
 	},
 	project: {
-		config$: path.resolve(__dirname + '/config.js')
+		config$: path.resolve(__dirname + '/config.js'),
+		pckg$: path.resolve(__dirname + '/package.json'),
 	},
 	git: {
 		root$: path.resolve(__dirname)

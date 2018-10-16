@@ -1,3 +1,4 @@
 module.exports = {
-	releaseBranchNames: ['beta', 'qa', 'master's]
+	releaseBranchNames: ['beta', 'qa', 'master']
 }
+
